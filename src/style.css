@@ -1,0 +1,517 @@
+/*___My custome Stylesheet Web-Survey
+_______________________________*/
+/*
+First, pull in Bottstrap's stylesheets
+*/
+/**this watado main style*/
+
+
+/*bootstrap*/
+
+/*@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css");*/
+/* @import url("font-awesome/CSS/font-awesome.css"); */
+
+
+body {
+    background-color: whitesmoke;
+        /* top, transparent black, faked with gradient */
+        /*linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),
+        //bottom, image 
+        url(https://images.unsplash.com/photo-1614030424754-24d0eebd46b2);*/
+}
+
+/*End of Fontsawesome css imports*/
+
+/*IEs bugs*/
+@-ms-viewport {
+    width: device-width;
+}
+
+@-webkit-viewport {
+    width: device-width;
+}
+
+@-moz-viewport {
+    width: device-width;
+}
+
+@-ms-viewport {
+    width: device-width;
+}
+
+@-o-viewport {
+    width: device-width;
+}
+
+@viewport {
+    width: device-width;
+}
+
+
+@media (min-width: 576px) {
+    .d-sm-flex {
+        display: flex !important;
+    }
+}
+
+@media (max-width:767px) {
+    .main-btn {
+        margin-top: 20px;
+    }
+
+    .col-xs-6 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1005px) {
+    .cart-static {
+        bottom: 0;
+        position: relative;
+        background-color: transparent;
+        transform: none;
+        box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .3);
+        width: 30%;
+        height: auto;
+
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-4 {
+        width: 33.33333333%;
+    }
+}
+
+@media (max-width: 840px) {
+    .col-xs-6 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px) {
+    .col-xs-6 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .col-md-1,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9 {
+        float: left;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) @media (min-width: 576px) {}
+
+Medium devices (tablets, 768px and up) @media (min-width: 768px) {} */
+
+
+/*  
+
+@font-face {
+    font-family: "SSP Light";
+    src: url("/customCSS/customFonts/SourceSansPro-Light.ttf");
+    font-weight: 100;
+}
+
+
+@font-face {
+    font-family: "SSP Book";
+    src: url("/customCSS/customFonts/SourceSansPro-Regular.ttf");
+    font-weight: 300;
+}
+ 
+@font-face {
+    font-family: "SSP Normal";
+    src: url("customCSS/customFonts/SourceSansPro-Regular.ttf");
+    font-weight: 400;
+}
+
+ 
+@font-face {
+    font-family: "SSP Semibold";
+    src: url("customCSS/customFonts/SourceSansPro-Semibold.ttf");
+    font-weight: 600;
+}
+
+ 
+@font-face {
+    font-family: "SSP Bold";
+    src: url("customCSS/customFonts/SourceSansPro-Bold.ttf");
+    font-weight: 700;
+}
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "SSP Semibold";
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.d-sm-flex {
+    display: flex !important;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.py-4 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+
+.px-5 {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+}
+
+.my-5 {
+    margin-top: 3rem !important;
+    margin-bottom: 3rem !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+
+small,
+span {
+    font-weight: 600;
+}
+
+.headline {
+    color: var(--primary-color);
+}
+
+.main-btn {
+    background-color: var(--primary-color);
+    border-radius: 30px;
+}
+
+
+.bannerHeader {
+    width: 100%;
+    height: 200px;
+    display: block;
+    background-color: #3e5c74
+}
+
+/*.divTempBannerHeader {
+    width: 100%;
+    height: 200px;
+    background-color: #3e5c74
+         
+    ;
+}*/
+
+.headerLogo {
+    display: inline-block;
+    height: 100px;
+    vertical-align: top;
+    margin-right: 30px;
+}
+
+.imgBannerLogo {
+    height: 50px;
+    margin-top: 25px;
+    border: 0;
+}
+
+
+.muteTxt {
+    font-size: 0.2cm;
+}
+
+.d_tbl_header {
+    display: table;
+    width: 100%;
+    height: 50%;
+    background-color: white;
+}
+
+.d_tblCel_header {
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    background-color: white;
+}
+
+#category-image-container {
+    /* background-image: url(customCSS/img/pizza.PNG); */
+}
+
+.cat_img {
+    width: 100%;
+    height: 5%;
+}
+
+.category {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.h4Catdescription {
+    border-radius: 2px 2px 0 0;
+    padding: 19px 12px;
+    background-color: #3e5c74;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "SSP Semibold";
+    --bs-text-opacity: 1;
+    color: #ffffff !important;
+}
+
+.muteTxt {
+    font-size: 0.35cm;
+    color: #ebebeb !important
+}
+/*********************************Products************************************/
+.productcontainer {
+    margin: 4px 0 0;
+}
+
+.productid {
+    visibility: hidden;
+}
+
+.product-name {
+    color: #111;
+    margin: 0 0 4px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "SSP Semibold";
+    --bs-text-opacity: 1;
+    border-radius: 2px 2px 0 0;
+}
+
+.subprddescription {
+    text-decoration: none;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 0.4cm;
+    line-height: 1.22;
+     font-weight: 500;
+    color: #757575;
+   
+}
+
+/*
+.productdescription {
+    text-decoration: none;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+*/
+.prddescription {
+    text-decoration: none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 0.2cm;
+    line-height: 1.22;
+    font-weight: 500;
+    display: inline;
+    text-transform: none;
+}
+
+.product-price {
+    letter-spacing: -.5px;
+    color: rgb(17, 17, 17);
+    margin: auto 0 0;
+    font-family: "SSP Semibold";
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.22;
+    /*display: inline;*/
+}
+
+
+.subPrice {
+   /* font-size: 0.25cm;
+    color: rgba(0, 0, 0, 0.7) !important*/
+    text-decoration: none;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 0.3cm;
+    line-height: 1.22;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+.prd-Container {
+    border-style: solid;
+    border-color: #D9D8D8;
+
+}
+
+.prd-Container2 {
+    border-style: solid;
+    border-color: #D9D8D8;
+    border: 1px solid #ebebeb;
+    border-radius: 2px;
+    margin: -5px 0;
+    position: relative;
+    padding: 16px 22px;
+    display: flex !important;
+    flex-wrap: wrap;
+    align-items: stretch;
+    text-decoration: none;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.prd-Container2:hover {
+
+    background: #ffffff;
+    box-shadow: 0 1px 1px #fff;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.product-order-button:before {
+    font-weight: 500;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ebebeb;
+    border-left: 1px solid #ebebeb;
+    border-radius: 0 2px 0 0;
+    color: #3e5c74;
+    font-size: 24px;
+    text-align: center;
+    content: "+";
+}
+
+
+
+.product-description {
+    font-family: "SSP Semibold";
+    font-weight: 400;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    margin: 0 0 4px;
+}
+
+/***************************Order-Cart**************************************/
+.cart-header {
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "SSP Semibold";
+    --bs-text-opacity: 1;
+    background-color: #3e5c74;
+    color: #ffffff !important;
+    padding: 1px;
+}
+
+/*
+.cart-static {
+
+   
+    position: fixed;
+    background: #fff;
+    background-color: rgb(255, 255, 255);
+ 
+    color: #fff;
+ 
+    
+    transform: translateY(calc(100% - 60px));
+    height: 100%;
+    font-size: 12px;
+     
+  
+
+}
+*/
+.cartbutton-button.btn-disabled {
+    border-radius: 3px;
+    border: 0;
+    background-color: darkgrey !important;
+    color: #fff;
+    height: 50px;
+    font-family: "SSP Semibold";
+    font-weight: 600;
+    position: relative;
+    padding: 0 16px;
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    width: 100%;
+    font-size: 18px;
+    cursor: not-allowed;
+    text-shadow: none;
+}
+
+.cartbutton-button.btn-disabled:hover {
+    opacity: 1
+}
+
+/*
+.cartbutton .cartbutton-button {
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #fff;
+    box-shadow: 0 2px 2px rgb(0 0 0 / 20%);
+    background-color: #3e5c74;
+    height: 50px;
+    line-height: 50px;
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: 600;
+    font-size: 20px;
+}*/
+
+.cartbutton:hover {
+    background-color: #3e5c74;
+    color: #fff;
+}
