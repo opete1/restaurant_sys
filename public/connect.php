@@ -1,8 +1,8 @@
 <?php
-$host = "localhost:3307";
+$host = "localhost:3306";
 $user = "root";
 $password = "";
-$dbname = "dbsaidu";
+$dbname = "databasen";
 
 // Create connection
 $conn = mysqli_connect($host, $user, $password, $dbname);
